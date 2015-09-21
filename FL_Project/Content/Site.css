@@ -1,0 +1,33 @@
+﻿body {
+  min-height: 2000px;
+  padding-top: 100px;
+  background-color: #F8F8F8;
+}
+
+.resultwrapper {
+    padding: 10px;
+    border: #e1e1e1 solid 1px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.navbar-default {
+    background-color: #313131;
+    border-color: #F8F8F8;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #F8F8F8;
+}
+
+.navbar-default .navbar-brand {
+    color: #FFF;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: #F8F8F8;
+}

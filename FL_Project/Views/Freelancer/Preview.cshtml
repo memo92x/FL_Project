@@ -1,0 +1,63 @@
+﻿@{
+    ViewBag.Title = "View";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .img-circle {
+        width: 300px;
+        border-radius: 50%;
+    }
+
+    img.circle-border {
+        border: 6px solid #FFFFFF;
+        border-radius: 50%;
+    }
+
+    .m-b-md {
+        margin-bottom: 20px;
+    }
+
+    .p-lg {
+        padding: 30px;
+    }
+
+    .navy-bg {
+        background-color: #313131;
+        color: #ffffff;
+    }
+
+    .widget-head-color-box {
+        border-radius: 5px 5px 0px 0px;
+        margin-top: 10px;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+</style>
+
+<div class="col-lg-4">
+    <div class="widget-head-color-box navy-bg p-lg text-center">
+        <div class="m-b-md">
+            <h2 class="font-bold no-margins">
+                Serkan Altay
+            </h2>
+            <small>Software - Udvikler</small>
+        </div>
+        <img src="~/Images/20150508_181717%20(1).jpg" class="img-circle circle-border m-b-md" alt="profile">
+        <div>
+            <span>100 Tweets</span> |
+            <span>350 Following</span> |
+            <span>610 Followers</span>
+        </div>
+    </div>
+    <div class="widget-text-box">
+        <h4 class="media-heading">Alex Smith</h4>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <div class="text-right">
+            <a class="btn btn-xs btn-white"><i class="fa fa-thumbs-up"></i> Like </a>
+            <a class="btn btn-xs btn-primary"><i class="fa fa-heart"></i> Love</a>
+        </div>
+    </div>
+</div>
