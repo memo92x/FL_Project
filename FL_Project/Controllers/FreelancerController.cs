@@ -10,7 +10,7 @@ namespace FL_Project.Controllers
     {
         //
         // GET: /Freelancer/
-        //hej
+        //hej selv memo
         public ActionResult Index()
         {
             return View();
