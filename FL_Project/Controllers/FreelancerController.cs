@@ -10,13 +10,18 @@ namespace FL_Project.Controllers
     {
         //
         // GET: /Freelancer/
-
+        //hej
         public ActionResult Index()
         {
             return View();
         }
          
         public ActionResult Preview()
+        {
+            return View();
+        }
+
+        public ActionResult Edit()
         {
             return View();
         }

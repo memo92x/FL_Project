@@ -403,5 +403,30 @@ namespace FL_Project.Controllers
             }
         }
         #endregion
+
+        public ActionResult Index()
+        {
+            return View();
+        }
+
+        public ActionResult Preview()
+        {
+            return View();
+        }
+
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        public ActionResult Edit()
+        {
+            return View();
+        }
+
+        public ActionResult Profile()
+        {
+            return Profile();
+        }
     }
 }
