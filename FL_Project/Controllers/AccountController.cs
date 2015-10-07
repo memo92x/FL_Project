@@ -13,10 +13,34 @@ using FL_Project.Models;
 
 namespace FL_Project.Controllers
 {
-    [Authorize]
-    [InitializeSimpleMembership]
+    //[Authorize]
+    //[InitializeSimpleMembership]
     public class AccountController : Controller
     {
+
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+
+        
+
+
+
+        //SA. 07.10.2015
+        //Glem nedenstående metoder. Jeg rydder op senere.  
+
+
+
+
+
+
+
+
+
+
+
         //
         // GET: /Account/Login
 
@@ -403,30 +427,7 @@ namespace FL_Project.Controllers
             }
         }
         #endregion
-
-        public ActionResult Index()
-        {
-            return View();
-        }
-
-        public ActionResult Preview()
-        {
-            return View();
-        }
-
-        public ActionResult Create()
-        {
-            return View();
-        }
-
-        public ActionResult Edit()
-        {
-            return View();
-        }
-
-        public ActionResult Profile()
-        {
-            return Profile();
-        }
+ 
+         
     }
 }
